@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小轩的导航</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body class="page__body">
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title">小轩的导航</h1>
+            <p class="header__desc">欢迎来到我的个人导航页面</p>
+        </header>
+
+        <section class="profile scroll-reveal">
+            <div class="profile__card">
+                <div class="profile__header">
+                    <div class="profile__avatar">
+                        <i class="fas fa-user-circle profile__avatar-icon"></i>
+                    </div>
+                    <h2 class="profile__title">关于我</h2>
+                </div>
+                <div class="profile__content">
+                    <p class="profile__bio">作为一名充满激情的全栈开发工程师，我热衷于探索和实践最新的技术趋势。专注于Web开发和人工智能领域，擅长将创新理念转化为实用的数字解决方案。我相信技术不仅能改变生活，更能创造价值。在过去的开发经历中，我参与并主导了多个成功的项目，涵盖从企业应用到开源工具的广泛领域。我尤其擅长React、Node.js和Python技术栈，并对云原生架构有深入研究。</p>
+                    
+                    <div class="profile__achievements">
+                        <h3 class="profile__subtitle">个人亮点</h3>
+                        <div class="profile__achievement-list">
+                            <div class="profile__achievement-item">
+                                <i class="fas fa-award profile__achievement-icon"></i>
+                                <span class="profile__achievement-text">技术专栏作者</span>
+                            </div>
+                            <div class="profile__achievement-item">
+                                <i class="fas fa-certificate profile__achievement-icon"></i>
+                                <span class="profile__achievement-text">开源社区贡献者</span>
+                            </div>
+                            <div class="profile__achievement-item">
+                                <i class="fas fa-lightbulb profile__achievement-icon"></i>
+                                <span class="profile__achievement-text">AI应用创新者</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="profile__social">
+                        <a href="mailto:contact@xiaoxuan654.top" title="Email" class="profile__social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/xiaoxuan654" title="GitHub" class="profile__social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/xiaoxuan654" title="Twitter" class="profile__social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/xiaoxuan654" title="LinkedIn" class="profile__social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="projects scroll-reveal">
+            <h2 class="projects__title">我的开源项目</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="card__content">
+                        <i class="fas fa-robot card__icon"></i>
+                        <h3 class="card__title">AI对话助手</h3>
+                        <p class="card__text">基于最新大语言模型开发的智能对话系统，支持多轮对话、知识检索和个性化定制。</p>
+                        <div class="card__tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">React</span>
+                        </div>
+                        <a href="https://github.com/xiaoxuan654/ai-assistant" class="card__link" target="_blank">查看项目 <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card__content">
+                        <i class="fas fa-cloud card__icon"></i>
+                        <h3 class="card__title">云原生部署工具</h3>
+                        <p class="card__text">简化Kubernetes应用部署流程的CLI工具，支持一键部署、配置管理和状态监控。</p>
+                        <div class="card__tags">
+                            <span class="tag">Go</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">Kubernetes</span>
+                        </div>
+                        <a href="https://github.com/xiaoxuan654/cloud-deploy" class="card__link" target="_blank">查看项目 <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card__content">
+                        <i class="fas fa-code card__icon"></i>
+                        <h3 class="card__title">前端组件库</h3>
+                        <p class="card__text">高性能React组件库，包含50+常用UI组件，支持主题定制和按需加载。</p>
+                        <div class="card__tags">
+                            <span class="tag">React</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Storybook</span>
+                        </div>
+                        <a href="https://github.com/xiaoxuan654/react-ui-kit" class="card__link" target="_blank">查看项目 <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card__content">
+                        <i class="fas fa-database card__icon"></i>
+                        <h3 class="card__title">数据可视化框架</h3>
+                        <p class="card__text">轻量级数据可视化框架，支持多种图表类型和实时数据更新，适用于各类数据分析场景。</p>
+                        <div class="card__tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">D3.js</span>
+                            <span class="tag">Canvas</span>
+                        </div>
+                        <a href="https://github.com/xiaoxuan654/data-viz" class="card__link" target="_blank">查看项目 <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="services scroll-reveal">
+            <div class="cards">
+                <div class="card" onclick="window.open('https://blog.xiaoxuan654.top')">
+                    <div class="card__content">
+                        <i class="fas fa-blog card__icon"></i>
+                        <h2 class="card__title">个人博客</h2>
+                        <p class="card__text">分享技术文章和个人见解</p>
+                    </div>
+                </div>
+                
+                <div class="card" onclick="window.open('https://chat.xiaoxuan654.top')">
+                    <div class="card__content">
+                        <i class="fas fa-robot card__icon"></i>
+                        <h2 class="card__title">AI 助手</h2>
+                        <p class="card__text">智能对话助手服务</p>
+                    </div>
+                </div>
+                
+                <div class="card" onclick="window.open('https://github.com/xiaoxuan654')">
+                    <div class="card__content">
+                        <i class="fab fa-github card__icon"></i>
+                        <h2 class="card__title">GitHub</h2>
+                        <p class="card__text">查看我的开源项目</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="footer scroll-reveal">
+            <h2 class="footer__title">联系我</h2>
+            <p class="footer__desc">如果您对我的项目感兴趣或有合作意向，欢迎通过以下方式联系我</p>
+            
+            <div class="footer__contact">
+                <div class="footer__contact-item">
+                    <i class="fas fa-envelope footer__contact-icon"></i>
+                    <span class="footer__contact-text">Email: <a href="mailto:contact@xiaoxuan654.top" class="footer__contact-link">contact@xiaoxuan654.top</a></span>
+                </div>
+                <div class="footer__contact-item">
+                    <i class="fab fa-github footer__contact-icon"></i>
+                    <span class="footer__contact-text">GitHub: <a href="https://github.com/xiaoxuan654" target="_blank" class="footer__contact-link">xiaoxuan654</a></span>
+                </div>
+                <div class="footer__contact-item">
+                    <i class="fab fa-twitter footer__contact-icon"></i>
+                    <span class="footer__contact-text">Twitter: <a href="https://twitter.com/xiaoxuan654" target="_blank" class="footer__contact-link">@xiaoxuan654</a></span>
+                </div>
+                <div class="footer__contact-item">
+                    <i class="fab fa-linkedin footer__contact-icon"></i>
+                    <span class="footer__contact-text">LinkedIn: <a href="https://linkedin.com/in/xiaoxuan654" target="_blank" class="footer__contact-link">xiaoxuan654</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
