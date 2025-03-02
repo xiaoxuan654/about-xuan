@@ -1,6 +1,6 @@
 /* 变量定义 - 使用BEM命名规范 */
 :root {
-    /* 主题颜色 */
+    /* 主题颜色 - 与config.json中的theme.colors保持一致 */
     --color-primary: #3498db;
     --color-secondary: #2c3e50;
     --color-text: #5a6a7a;
@@ -14,22 +14,22 @@
     --card-border: rgba(255, 255, 255, 0.3);
     --card-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
     
-    /* 动画 */
+    /* 动画 - 与config.json中的theme.animations保持一致 */
     --transition-fast: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-normal: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-slow: 0.8s cubic-bezier(0.4, 0, 0.2, 1);
     
-    /* 间距 */
+    /* 间距 - 与config.json中的theme.spacing保持一致 */
     --space-xs: 0.5rem;
     --space-sm: 1rem;
     --space-md: 2rem;
     --space-lg: 2.5rem;
     --space-xl: 4rem;
     
-    /* 圆角 */
-    --radius-sm: 10px;
-    --radius-md: 20px;
-    --radius-lg: 30px;
+    /* 圆角 - 与config.json中的theme.borderRadius保持一致 */
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
     --radius-full: 50%;
 }
 

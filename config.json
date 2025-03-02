@@ -1,7 +1,7 @@
 {
     "site": {
-        "title": "小轩的导航",
-        "description": "欢迎来到我的个人导航页面",
+        "title": "小轩的网站",
+        "description": "欢迎来到我的个人网站",
         "favicon": "assets/favicon.ico"
     },
     "profile": {
@@ -10,14 +10,14 @@
             "alt": "头像"
         },
         "name": "关于我",
-        "bio": "作为一名充满激情的全栈开发工程师，我热衷于探索和实践最新的技术趋势。专注于Web开发和人工智能领域，擅长将创新理念转化为实用的数字解决方案。我相信技术不仅能改变生活，更能创造价值。在过去的开发经历中，我参与并主导了多个成功的项目，涵盖从企业应用到开源工具的广泛领域。我尤其擅长React、Node.js和Python技术栈，并对云原生架构有深入研究。",
+        "bio": "作为一名充满激情的全栈开发工程师，我热衷于探索和实践最新的技术趋势。专注于Web开发和人工智能领域，擅长将创新理念转化为实用的数字解决方案。我相信技术不仅能改变生活，更能创造价值。在过去的开发经历中，我参与并主导了多个成功的项目，涵盖从企业应用到开源工具的广泛领域。我尤其擅长JavaScript、CSS和Python技术栈，并对云原生架构有深入研究。",
         "skills": [
             "JavaScript",
-            "React",
-            "Node.js",
+            "CSS",
             "Python",
             "云原生",
-            "全栈开发"
+            "全栈开发",
+            "人工智能"
         ],
         "social": [
             {
@@ -26,41 +26,46 @@
                 "url": "https://github.com/xiaoxuan654"
             },
             {
-                "platform": "LinkedIn",
-                "icon": "fab fa-linkedin",
-                "url": "https://linkedin.com/in/xiaoxuan"
+                "platform": "Telegram",
+                "icon": "fab fa-telegram",
+                "url": "https://t.me/xiaoxuan_654"
             }
         ]
     },
     "projects": [
         {
-            "title": "个人博客系统",
-            "icon": "fas fa-blog",
-            "description": "基于React和Node.js的现代化博客系统",
-            "technologies": ["React", "Node.js", "MongoDB"],
-            "link": "https://blog.xiaoxuan654.top"
+            "title": "游戏管理系统",
+            "icon": "fas fa-gamepad",
+            "description": "基于Node.js的现代化游戏管理系统",
+            "technologies": ["Node.js", "Express", "MongoDB"],
+            "link": "https://game.xiaoxuan654.top"
         },
         {
             "title": "AI助手工具",
             "icon": "fas fa-robot",
-            "description": "智能对话和任务辅助工具",
+            "description": "基于深度学习的智能对话和任务辅助工具",
             "technologies": ["Python", "TensorFlow", "FastAPI"],
             "link": "https://ai.xiaoxuan654.top"
         }
     ],
     "contact": {
         "title": "联系方式",
-        "description": "如果您有任何问题或合作意向，欢迎通过以下方式联系我",
+        "description": "如果您对我的项目感兴趣或有合作意向，欢迎通过以下方式联系我",
         "methods": [
             {
                 "type": "Email",
                 "icon": "fas fa-envelope",
-                "value": "contact@xiaoxuan654.top"
+                "value": "xiaoxuan654@outlook.com"
             },
             {
                 "type": "WeChat",
                 "icon": "fab fa-weixin",
-                "value": "xiaoxuan654"
+                "value": "xiaoxuan_654"
+            },
+            {
+                "type": "Telegram",
+                "icon": "fab fa-telegram",
+                "value": "https://t.me/xiaoxuan_654"
             }
         ]
     },
@@ -81,24 +86,24 @@
         },
         "animations": {
             "pageLoad": {
-                "duration": "0.8s",
+                "duration": "0.6s",
                 "delay": "0.1s",
                 "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
             },
             "cardHover": {
-                "duration": "0.5s",
-                "scale": 1.05,
+                "duration": "0.3s",
+                "scale": 1.03,
                 "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
             },
             "scrollReveal": {
-                "duration": "1s",
-                "distance": "50px",
+                "duration": "0.8s",
+                "distance": "30px",
                 "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
                 "interval": "0.1s"
             },
             "parallax": {
                 "enabled": true,
-                "speed": 0.5
+                "speed": 0.3
             }
         },
         "typography": {
@@ -109,19 +114,19 @@
             },
             "body": {
                 "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
-                "lineHeight": 1.8,
-                "fontSize": "1.1rem"
+                "lineHeight": 1.6,
+                "fontSize": "1rem"
             }
         },
         "spacing": {
             "section": "4rem",
-            "element": "2rem",
-            "card": "2.5rem"
+            "element": "1.5rem",
+            "card": "2rem"
         },
         "borderRadius": {
-            "card": "20px",
-            "button": "10px",
-            "tag": "20px"
+            "card": "16px",
+            "button": "8px",
+            "tag": "12px"
         }
     }
 }
